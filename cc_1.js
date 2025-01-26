@@ -13,3 +13,15 @@ const productPrice = 12.99;
 console.log(`Product Price: ${productPrice}, type: ${typeof productPrice}`);// Output: Product Price: 12.99, type: number
 var isAvailable = true;
 console.log(`isAvailable: ${isAvailable}, type: ${typeof isAvailable}`);// Output: isAvailable: true, type: boolean
+
+//Task 3: Number Data Type
+let accountBalance = 1500;
+console.log(`Initial Balance: ${accountBalance}`);// Output: Initial Balance: 1500  
+accountBalance += 500;
+console.log(`Updated Balance: ${accountBalance}`);// Output: Updated Balance: 2000
+accountBalance -= 350
+console.log(`Updated Balance: ${accountBalance}`);// Output: Updated Balance: 1650
+accountBalance *=2;
+console.log(`Updated Balance: ${accountBalance}`);// Output: Updated Balance: 3300
+accountBalance /=3;
+console.log(`Updated Balance: ${accountBalance}`);// Output: Updated Balance: 1100
