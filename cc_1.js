@@ -29,3 +29,11 @@ console.log(`Updated Balance: ${accountBalance}`);// Output: Updated Balance: 11
 //Task 4: String Data Type
 let customerName = 'Winnie';
 console.log(`Welcome in ${customerName}`);// Output: Welcome in Winnie
+
+//Task 5: Boolean Data Type
+let isLoggedIn = true;
+if (isLoggedIn) {
+    console.log('Welcome back!');
+} else {
+    console.log('Please try again!');
+}// Output: Welcome back!
