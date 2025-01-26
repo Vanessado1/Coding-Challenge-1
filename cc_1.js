@@ -25,3 +25,7 @@ accountBalance *=2;
 console.log(`Updated Balance: ${accountBalance}`);// Output: Updated Balance: 3300
 accountBalance /=3;
 console.log(`Updated Balance: ${accountBalance}`);// Output: Updated Balance: 1100
+
+//Task 4: String Data Type
+let customerName = 'Winnie';
+console.log(`Welcome in ${customerName}`);// Output: Welcome in Winnie
